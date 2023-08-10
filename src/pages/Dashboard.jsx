@@ -64,7 +64,7 @@ useEffect(()=>{
           </div>
           <div className="dash">
             <div className="title-box">
-              <p>Total Visites</p>
+              <p>Total Visite</p>
               <hr />
               <div className="info">
                 <p>6.9009090</p>
