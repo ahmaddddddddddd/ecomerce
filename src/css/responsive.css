@@ -1,0 +1,61 @@
+
+@media screen and (min-width: 490px){
+    header{
+        width: 100%;
+    }
+    .logo .mylogo{
+        font-size: 38px;
+        margin-left: 9.5rem;
+    }
+    nav{
+        margin-left: 4rem;
+    }
+    nav .nav-link{
+        padding: 0 30px;
+    }
+
+}
+/*for pc small screen */
+@media screen and (min-width: 720px){
+    header{
+        width: 100%;
+        position: relative;
+    }
+    .logo .mylogo{
+        font-size: 30px;
+        margin-left:1rem;
+        position: relative;
+        top: 27px;
+    }
+    nav{
+        margin-right: 3rem;
+        float: right;
+        line-height: 2px;
+    }
+    nav .nav-link{
+        padding: 10px 30px;
+    }
+}
+/*for pc large screen*/
+@media screen and (min-width: 1200px){
+    header{
+        width: 100%;
+        position: relative;
+    }
+    .logo .mylogo{
+        font-size: 30px;
+        margin-left:5rem;
+        position: relative;
+        top: 29px;
+    }
+    nav{
+        margin-right: 5rem;
+        float: right;
+        margin-bottom: 35px;
+    }
+    nav .nav-link{
+        padding: 10px 0px;
+        margin: 0 40px;
+        font-size: 20px;
+    }
+}
