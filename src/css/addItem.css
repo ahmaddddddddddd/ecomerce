@@ -1,0 +1,82 @@
+.text{
+    width: 100%;
+    display: grid;
+    gap: 50px;
+}
+/* globalStyles.css */
+
+body {
+    background-color: #fcfcfc;
+  }
+
+
+.inputBox{
+    position: absolute;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    padding: 100px;
+    margin-top:10px;
+    height: 600px;
+    width: 1510px;
+    margin-left: 96px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.p{
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;    
+    margin: 20px 100px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+
+}
+.p h4{
+    text-align: center;
+    color: #6d6c6c;
+}
+input{
+    border-radius: 6px;
+    padding: 15px;
+    border:1px solid #102C57;
+}
+
+.up {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .up input[type="text"] {
+    flex: 1;
+    margin-right: 10px; 
+  }
+
+.up input[type="text"] [placeholder="Link"] {
+  width: 100%; 
+  display: flex;
+}
+
+.mid input[type="text"] {
+  width: 50%;
+}
+.mid input[type="image"],
+.mid input[type="text"][placeholder="Stock"] {
+  flex: 1; 
+  margin-right: 10px; 
+}
+
+.down textarea {
+  width: 100%;
+
+}
+
+.text{
+    margin-top: -40px;
+}
+.mid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
